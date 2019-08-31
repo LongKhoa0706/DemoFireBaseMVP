@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "629214164761",
+    "firebase_url": "https://demologinfirebase-7c224.firebaseio.com",
+    "project_id": "demologinfirebase-7c224",
+    "storage_bucket": "demologinfirebase-7c224.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629214164761:android:1092e73c83ed7c9b",
+        "android_client_info": {
+          "package_name": "com.longkhoa.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629214164761-s7fm1dm89iajf6qe33usseck2pkee96o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.longkhoa.myapplication",
+            "certificate_hash": "3c7fc18592562d96d349bc1a2c72389824f7046d"
+          }
+        },
+        {
+          "client_id": "629214164761-l2nn3m3kgvj6s0llgrcnvnk5cp1sd0c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpsA13eUUIInpsiDvuAjHj0oJk5LAL88s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629214164761-l2nn3m3kgvj6s0llgrcnvnk5cp1sd0c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
