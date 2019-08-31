@@ -1,6 +1,7 @@
-package com.longkhoa.myapplication.Presenter;
+package com.longkhoa.myapplication.Model;
 
 import android.content.Intent;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
@@ -10,6 +11,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.longkhoa.myapplication.Main3Activity;
 import com.longkhoa.myapplication.MainActivity;
+import com.longkhoa.myapplication.Presenter.PresenterImDangNhap;
 import com.longkhoa.myapplication.View.ViewXuLyDangNhap;
 
 public class PresenterXuLyDangNhap implements PresenterImDangNhap {
@@ -33,7 +35,7 @@ public class PresenterXuLyDangNhap implements PresenterImDangNhap {
                             if (task.isSuccessful()) {
                                 viewXuLyDangNhap.dangNhapThanhCong();
                             } else {
-//                                        Toast.makeText(MainActivity.this, "Đăng Ký Lại Tài khoản", Toast.LENGTH_SHORT).show();
+                                viewXuLyDangNhap.checkTaiKhoan();
                             }
                         }
                     });

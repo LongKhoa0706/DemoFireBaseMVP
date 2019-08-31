@@ -6,19 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.analytics.FirebaseAnalytics;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.longkhoa.myapplication.Presenter.PresenterXuLyDangNhap;
+import com.longkhoa.myapplication.Model.PresenterXuLyDangNhap;
 import com.longkhoa.myapplication.View.ViewXuLyDangNhap;
 
 public class MainActivity extends AppCompatActivity implements ViewXuLyDangNhap {
@@ -59,6 +52,11 @@ public class MainActivity extends AppCompatActivity implements ViewXuLyDangNhap 
 
     @Override
     public void dangNhapThatBai() {
-        Toast.makeText(MainActivity.this, "Đăng Ký Lại Tài khoản", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Không được bỏ trống", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void checkTaiKhoan() {
+        Toast.makeText(this, "Vui lòng đăng ký tài khoản ", Toast.LENGTH_SHORT).show();
     }
 }
